@@ -26,18 +26,22 @@ public class AddressService {
     }
 
     public List<Address> getAddresses() {
-        logger.info("Visszateritett cimek");
+        logger.info("Returned addresses");
         return addressRepository.findAll();
     }
 
-    public Optional<Address> getAddress(Long addressId) {
-        return addressRepository.findById(addressId);
+    public Address getAddress(Long addressId) {
+        Optional<Address> address = addressRepository.findById((long) addressId);
+        if(!address.isPresent()){
+            logger.warn(String.format("User with id %d does not exist in database", addressId));
+            throw new EntityNotFoundException(String.format("User with id %d does not exist in database", addressId));
+        }
+        return address.get();
     }
     
     
     public Address getAddressById(Long addressId) {
-
-    Optional<Address> address = addressRepository.findById(addressId);
+        Optional<Address> address = addressRepository.findById(addressId);
         if(!address.isPresent()){
             throw new EntityNotFoundException(String.format("Address with id %d does not exist in database", addressId));
         }
@@ -58,6 +62,11 @@ public class AddressService {
     }
 
     public void deleteAddress(Long addressId){
+        Optional<Address> address = addressRepository.findById(addressId);
+        if(!address.isPresent()){
+            logger.warn("Address with id %d does not exist in database", addressId);
+            throw new EntityNotFoundException(String.format("Address with id %d does not exist in database", addressId));
+        }
         addressRepository.deleteById(addressId);
     }
 }

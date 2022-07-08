@@ -37,7 +37,7 @@ public class UserService {
     }
 
     public User getUser(long userId){
-        Optional<User> user = userRepository.findById((long) userId);
+        Optional<User> user = userRepository.findById(userId);
         if(!user.isPresent()){
             logger.warn(String.format("User with id %d does not exist in database", userId));
             throw new EntityNotFoundException(String.format("User with id %d does not exist in database", userId));
@@ -83,11 +83,11 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public void deleteUser(Long userId){
-        if(!userRepository.existsById(userId)){
+    public void deleteUser(long userId){
+        if(!userRepository.existsById( userId)){
             throw new EntityNotFoundException(String.format("User with id %d does not exist in database", userId));
         }
-        userRepository.deleteById(userId);
+        userRepository.deleteById((long) userId);
     }
 
     public void deleteUserByUsername(String username){

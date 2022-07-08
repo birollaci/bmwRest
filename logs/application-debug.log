@@ -1,0 +1,777 @@
+2022-07-07 09:18:19,177 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 24880 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 09:18:19,182 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 09:18:20,160 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 09:18:20,309 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 4 JPA repository interfaces.
+2022-07-07 09:18:21,497 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 09:18:21,511 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 09:18:21,512 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 09:18:21,596 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 09:18:21,597 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2341 ms
+2022-07-07 09:18:21,811 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 09:18:22,202 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 09:18:22,206 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 09:18:22,282 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 09:18:22,350 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 09:18:22,563 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 09:18:22,737 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 09:18:23,562 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 09:18:23,579 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 09:18:24,426 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 09:18:25,147 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 09:18:25,159 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 09:18:25
+2022-07-07 09:18:25,162 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 6.669 seconds (JVM running for 7.167)
+2022-07-07 09:18:26,341 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 09:18:26,872 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 09:18:26,873 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 09:26:45,176 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 09:26:45
+2022-07-07 09:35:05,187 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 09:35:05
+2022-07-07 09:36:21,525 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 09:36:21,526 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 09:36:21,528 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+2022-07-07 09:36:21,567 INFO  [http-nio-8080-exec-1] bmw.rest.service.AddressService : Returned addresses
+2022-07-07 09:36:29,892 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'addressId' for method parameter type long is not present]
+2022-07-07 09:36:34,150 INFO  [http-nio-8080-exec-3] bmw.rest.service.AddressService : Returned addresses
+2022-07-07 09:43:25,204 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 09:43:25
+2022-07-07 09:51:45,207 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 09:51:45
+2022-07-07 10:00:05,232 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 10:00:05
+2022-07-07 10:08:25,242 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 10:08:25
+2022-07-07 10:16:45,248 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 10:16:45
+2022-07-07 10:25:05,258 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 10:25:05
+2022-07-07 10:33:25,274 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 10:33:25
+2022-07-07 10:39:12,250 INFO  [http-nio-8080-exec-4] bmw.rest.service.AddressService : Returned addresses
+2022-07-07 10:39:27,568 WARN  [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type long is not present]
+2022-07-07 10:41:45,273 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 10:41:45
+2022-07-07 10:50:05,290 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 10:50:05
+2022-07-07 10:50:38,829 WARN  [http-nio-8080-exec-8] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type long is not present]
+2022-07-07 10:51:06,284 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type long is not present]
+2022-07-07 10:51:19,181 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type long is not present]
+2022-07-07 10:51:49,538 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 23272 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 10:51:49,554 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 10:51:51,009 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 10:51:51,107 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 4 JPA repository interfaces.
+2022-07-07 10:51:52,483 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 10:51:52,500 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 10:51:52,501 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 10:51:52,651 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 10:51:52,652 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3026 ms
+2022-07-07 10:51:52,929 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 10:51:53,321 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 10:51:53,325 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 10:51:53,432 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 10:51:53,558 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 10:51:53,821 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 10:51:54,021 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 10:51:55,086 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 10:51:55,100 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 10:51:56,234 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 10:51:56,999 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 10:51:57,016 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 10:51:57
+2022-07-07 10:51:57,019 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 8.189 seconds (JVM running for 8.711)
+2022-07-07 10:51:58,162 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 10:51:58,639 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 10:51:58,640 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 10:52:09,762 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 10:52:09,763 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 10:52:09,764 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-07-07 10:52:09,817 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type int is not present]
+2022-07-07 10:52:12,083 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type int is not present]
+2022-07-07 10:52:34,636 WARN  [http-nio-8080-exec-6] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type int is not present]
+2022-07-07 10:53:56,073 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 18024 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 10:53:56,076 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 10:53:57,277 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 10:53:57,436 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 4 JPA repository interfaces.
+2022-07-07 10:53:58,810 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 10:53:58,826 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 10:53:58,827 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 10:53:58,916 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 10:53:58,917 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2771 ms
+2022-07-07 10:53:59,241 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 10:53:59,765 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 10:53:59,769 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 10:53:59,866 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 10:53:59,952 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 10:54:00,188 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 10:54:00,366 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 10:54:01,361 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 10:54:01,375 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 10:54:02,113 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 10:54:02,930 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 10:54:02,948 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 10:54:02
+2022-07-07 10:54:02,952 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 7.527 seconds (JVM running for 8.077)
+2022-07-07 10:54:04,174 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 10:54:04,688 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 10:54:04,689 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 10:54:11,867 INFO  [http-nio-8080-exec-4] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 10:54:11,867 INFO  [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 10:54:11,869 INFO  [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-07-07 10:54:11,918 WARN  [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type long is not present]
+2022-07-07 10:54:13,477 WARN  [http-nio-8080-exec-3] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type long is not present]
+2022-07-07 10:54:30,484 WARN  [http-nio-8080-exec-7] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type long is not present]
+2022-07-07 10:56:04,916 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 16308 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 10:56:04,921 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 10:56:06,355 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 10:56:06,496 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 4 JPA repository interfaces.
+2022-07-07 10:56:07,917 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 10:56:07,937 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 10:56:07,938 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 10:56:08,057 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 10:56:08,058 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3068 ms
+2022-07-07 10:56:08,388 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 10:56:08,733 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 10:56:08,737 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 10:56:08,815 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 10:56:08,910 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 10:56:09,114 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 10:56:09,282 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 10:56:10,208 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 10:56:10,220 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 10:56:11,258 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 10:56:12,027 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 10:56:12,044 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 10:56:12
+2022-07-07 10:56:12,048 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 7.853 seconds (JVM running for 8.397)
+2022-07-07 10:56:13,146 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 10:56:13,575 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 10:56:13,576 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 10:57:25,489 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 10:57:25,490 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 10:57:25,492 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+2022-07-07 10:57:31,883 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type int is not present]
+2022-07-07 11:04:32,065 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:04:32
+2022-07-07 11:12:52,070 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:12:52
+2022-07-07 11:21:12,090 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:21:12
+2022-07-07 11:23:27,033 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 22796 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 11:23:27,038 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:23:28,101 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:23:28,247 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 4 JPA repository interfaces.
+2022-07-07 11:23:29,417 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:23:29,465 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 11:23:29,468 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 11:23:29,614 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:23:29,616 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2503 ms
+2022-07-07 11:23:30,009 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 11:23:30,431 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 11:23:30,434 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 11:23:30,526 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:23:30,623 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 11:23:30,896 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:23:31,154 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 11:23:32,047 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:23:32,065 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:23:32,985 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:23:33,909 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:23:33,927 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:23:33
+2022-07-07 11:23:33,930 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 7.533 seconds (JVM running for 8.079)
+2022-07-07 11:23:35,038 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 11:23:35,425 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 11:23:35,426 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 11:23:37,425 INFO  [http-nio-8080-exec-4] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:23:37,426 INFO  [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:23:37,429 INFO  [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+2022-07-07 11:23:40,716 WARN  [http-nio-8080-exec-2] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type int is not present]
+2022-07-07 11:24:25,179 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 15556 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 11:24:25,183 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:24:26,158 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:24:26,266 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 4 JPA repository interfaces.
+2022-07-07 11:24:27,384 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:24:27,399 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 11:24:27,400 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 11:24:27,500 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:24:27,501 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2248 ms
+2022-07-07 11:24:27,812 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 11:24:28,234 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 11:24:28,239 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 11:24:28,328 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:24:28,421 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 11:24:28,675 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:24:28,856 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 11:24:29,702 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:24:29,718 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:24:30,520 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:24:31,267 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:24:31,281 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:24:31
+2022-07-07 11:24:31,284 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 6.727 seconds (JVM running for 7.341)
+2022-07-07 11:24:32,309 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 11:24:32,718 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 11:24:32,718 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 11:24:35,487 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:24:35,487 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:24:35,489 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-07-07 11:24:35,543 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+2022-07-07 11:27:26,084 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 26972 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 11:27:26,089 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:27:27,169 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:27:27,293 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 4 JPA repository interfaces.
+2022-07-07 11:27:28,729 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:27:28,754 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 11:27:28,755 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 11:27:28,860 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:27:28,861 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2695 ms
+2022-07-07 11:27:29,226 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 11:27:29,738 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 11:27:29,742 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 11:27:29,841 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:27:29,948 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 11:27:30,174 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:27:30,360 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 11:27:31,300 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:27:31,318 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:27:32,089 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:27:32,878 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:27:32,899 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 7.515 seconds (JVM running for 8.072)
+2022-07-07 11:27:32,899 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:27:32
+2022-07-07 11:27:34,025 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 11:27:34,376 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 11:27:34,377 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 11:27:37,869 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:27:37,870 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:27:37,871 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-07-07 11:27:37,924 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'userId' for method parameter type String is not present]
+2022-07-07 11:28:19,441 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 316 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 11:28:19,445 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:28:20,514 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:28:20,638 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 4 JPA repository interfaces.
+2022-07-07 11:28:21,837 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:28:21,850 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 11:28:21,851 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 11:28:21,931 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:28:21,932 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2408 ms
+2022-07-07 11:28:22,229 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 11:28:22,609 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 11:28:22,612 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 11:28:22,699 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:28:22,792 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 11:28:23,024 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:28:23,201 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 11:28:24,058 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:28:24,075 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:28:24,853 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:28:25,631 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:28:25,658 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:28:25
+2022-07-07 11:28:25,661 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 6.917 seconds (JVM running for 7.424)
+2022-07-07 11:28:26,746 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 11:28:27,112 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 11:28:27,113 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 11:28:30,195 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:28:30,196 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:28:30,198 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+2022-07-07 11:28:30,242 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type String is not present]
+2022-07-07 11:29:31,667 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 21100 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 11:29:31,671 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:29:32,572 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:29:32,684 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 4 JPA repository interfaces.
+2022-07-07 11:29:33,923 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:29:33,939 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 11:29:33,939 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 11:29:34,028 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:29:34,029 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2291 ms
+2022-07-07 11:29:34,333 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 11:29:34,656 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 11:29:34,659 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 11:29:34,734 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:29:34,828 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 11:29:35,093 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:29:35,271 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 11:29:36,146 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:29:36,166 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:29:37,412 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:29:38,310 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:29:38,327 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:29:38
+2022-07-07 11:29:38,330 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 7.332 seconds (JVM running for 7.834)
+2022-07-07 11:29:39,332 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 11:29:39,692 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 11:29:39,693 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 11:29:42,783 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:29:42,783 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:29:42,785 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-07-07 11:29:42,848 WARN  [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type String is not present]
+2022-07-07 11:30:30,552 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 22608 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 11:30:30,557 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:30:31,766 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:30:31,907 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 4 JPA repository interfaces.
+2022-07-07 11:30:33,177 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:30:33,195 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 11:30:33,196 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 11:30:33,277 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:30:33,278 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2642 ms
+2022-07-07 11:30:33,560 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 11:30:33,941 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 11:30:33,944 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 11:30:34,031 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:30:34,122 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 11:30:34,396 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:30:34,573 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 11:30:35,572 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:30:35,588 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:30:36,500 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:30:37,249 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:30:37,264 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:30:37
+2022-07-07 11:30:37,267 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 7.38 seconds (JVM running for 7.933)
+2022-07-07 11:30:38,353 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 11:30:38,715 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 11:30:38,715 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 11:30:42,306 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:30:42,308 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:30:42,309 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-07-07 11:30:42,387 ERROR [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Provided id of the wrong type for class bmw.rest.domain.User. Expected: class java.lang.Integer, got class java.lang.Long; nested exception is java.lang.IllegalArgumentException: Provided id of the wrong type for class bmw.rest.domain.User. Expected: class java.lang.Integer, got class java.lang.Long] with root cause
+org.hibernate.TypeMismatchException: Provided id of the wrong type for class bmw.rest.domain.User. Expected: class java.lang.Integer, got class java.lang.Long
+	at org.hibernate.event.internal.DefaultLoadEventListener.checkIdClass(DefaultLoadEventListener.java:155)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:71)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:118)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1226)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1215)
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:201)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2830)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2807)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2763)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2807)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3395)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3362)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy105.find(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy105.find(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:639)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy114.findById(Unknown Source)
+	at bmw.rest.service.UserService.getUser(UserService.java:40)
+	at bmw.rest.controller.UserController.getUser(UserController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-07-07 11:31:31,488 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 13928 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 11:31:31,492 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:31:32,673 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:31:32,809 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 4 JPA repository interfaces.
+2022-07-07 11:31:33,962 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:31:33,976 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 11:31:33,977 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 11:31:34,064 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:31:34,065 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2486 ms
+2022-07-07 11:31:34,359 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 11:31:34,674 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 11:31:34,677 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 11:31:34,745 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:31:34,822 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 11:31:35,051 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:31:35,220 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 11:31:36,113 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:31:36,128 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:31:37,076 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:31:37,866 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:31:37,882 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:31:37
+2022-07-07 11:31:37,885 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 7.16 seconds (JVM running for 7.657)
+2022-07-07 11:31:39,192 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 11:31:39,608 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 11:31:39,609 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 11:31:42,228 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:31:42,228 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:31:42,230 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-07-07 11:31:42,304 ERROR [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Provided id of the wrong type for class bmw.rest.domain.User. Expected: class java.lang.Integer, got class java.lang.Long; nested exception is java.lang.IllegalArgumentException: Provided id of the wrong type for class bmw.rest.domain.User. Expected: class java.lang.Integer, got class java.lang.Long] with root cause
+org.hibernate.TypeMismatchException: Provided id of the wrong type for class bmw.rest.domain.User. Expected: class java.lang.Integer, got class java.lang.Long
+	at org.hibernate.event.internal.DefaultLoadEventListener.checkIdClass(DefaultLoadEventListener.java:155)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:71)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:118)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1226)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1215)
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:201)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2830)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2807)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2763)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2807)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3395)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3362)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy105.find(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy105.find(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:639)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy114.findById(Unknown Source)
+	at bmw.rest.service.UserService.getUser(UserService.java:40)
+	at bmw.rest.controller.UserController.getUser(UserController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-07-07 11:32:23,947 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 9896 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 11:32:23,953 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:32:25,310 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:32:25,442 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 4 JPA repository interfaces.
+2022-07-07 11:32:26,688 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:32:26,703 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 11:32:26,703 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 11:32:26,788 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:32:26,788 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2760 ms
+2022-07-07 11:32:27,121 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 11:32:27,459 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 11:32:27,462 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 11:32:27,532 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:32:27,608 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 11:32:27,830 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:32:28,032 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 11:32:29,074 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:32:29,089 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:32:29,880 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:32:30,562 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:32:30,578 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:32:30
+2022-07-07 11:32:30,582 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 7.305 seconds (JVM running for 7.922)
+2022-07-07 11:32:31,645 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 11:32:32,077 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 11:32:32,077 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 11:32:33,721 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:32:33,721 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:32:33,723 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-07-07 11:32:33,804 ERROR [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Provided id of the wrong type for class bmw.rest.domain.User. Expected: class java.lang.Integer, got class java.lang.Long; nested exception is java.lang.IllegalArgumentException: Provided id of the wrong type for class bmw.rest.domain.User. Expected: class java.lang.Integer, got class java.lang.Long] with root cause
+org.hibernate.TypeMismatchException: Provided id of the wrong type for class bmw.rest.domain.User. Expected: class java.lang.Integer, got class java.lang.Long
+	at org.hibernate.event.internal.DefaultLoadEventListener.checkIdClass(DefaultLoadEventListener.java:155)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:71)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:118)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1226)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1215)
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:201)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2830)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2807)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2763)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2807)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3395)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3362)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy105.find(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy105.find(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:639)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy114.findById(Unknown Source)
+	at bmw.rest.service.UserService.getUser(UserService.java:40)
+	at bmw.rest.controller.UserController.getUser(UserController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:359)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1735)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2022-07-07 11:33:27,148 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 12688 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 11:33:27,152 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:33:28,080 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:33:28,201 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 4 JPA repository interfaces.
+2022-07-07 11:33:29,341 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:33:29,355 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 11:33:29,356 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 11:33:29,440 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:33:29,441 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2215 ms
+2022-07-07 11:33:29,724 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 11:33:30,081 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 11:33:30,085 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 11:33:30,160 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:33:30,236 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 11:33:30,465 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:33:30,670 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 11:33:31,558 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:33:31,578 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:33:32,430 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:33:33,134 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:33:33,151 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:33:33
+2022-07-07 11:33:33,154 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 6.711 seconds (JVM running for 7.282)
+2022-07-07 11:33:34,196 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 11:33:34,564 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 11:33:34,564 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 11:33:38,471 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:33:38,472 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:33:38,474 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-07-07 11:33:38,531 INFO  [http-nio-8080-exec-1] bmw.rest.controller.UserController : returned user by ID
+2022-07-07 11:41:53,177 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:41:53
+2022-07-07 11:50:13,187 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:50:13
+2022-07-07 11:58:33,193 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 11:58:33
+2022-07-07 12:06:53,203 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 12:06:53
+2022-07-07 12:15:13,215 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 12:15:13
+2022-07-07 12:23:33,223 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 12:23:33
+2022-07-07 12:31:53,245 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 12:31:53
+2022-07-07 12:40:13,257 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 12:40:13
+2022-07-07 12:48:33,263 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 12:48:33
+2022-07-07 12:56:53,275 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 12:56:53
+2022-07-07 13:05:13,287 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 13:05:13
+2022-07-07 13:13:33,288 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 13:13:33
+2022-07-07 13:21:53,312 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 13:21:53
+2022-07-07 13:30:13,321 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 13:30:13
+2022-07-07 13:38:33,340 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 13:38:33
+2022-07-07 13:46:53,344 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 13:46:53
+2022-07-07 13:55:13,360 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 13:55:13
+2022-07-07 15:38:30,174 INFO  [main] bmw.rest.WebshopApplication : Starting WebshopApplication using Java 1.8.0_201 on BLASZLO-PC with PID 8228 (D:\dev\bmwRest\bin\main started by laszlo.biro in D:\dev\bmwRest)
+2022-07-07 15:38:30,205 INFO  [main] bmw.rest.WebshopApplication : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 15:38:31,221 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 15:38:31,339 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 4 JPA repository interfaces.
+2022-07-07 15:38:32,650 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 15:38:32,664 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-07-07 15:38:32,665 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-07 15:38:33,176 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2022-07-07 15:38:33,177 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2889 ms
+2022-07-07 15:38:33,478 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-07-07 15:38:33,788 INFO  [main] com.zaxxer.hikari.pool.PoolBase : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-07-07 15:38:33,791 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-07-07 15:38:33,866 INFO  [main] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 15:38:33,958 INFO  [main] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-07 15:38:34,196 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 15:38:34,378 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2022-07-07 15:38:35,324 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 15:38:35,339 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 15:38:36,098 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 15:38:36,893 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 15:38:36,910 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 15:38:36
+2022-07-07 15:38:36,916 INFO  [main] bmw.rest.WebshopApplication : Started WebshopApplication in 7.626 seconds (JVM running for 12.503)
+2022-07-07 15:38:38,027 INFO  [main] bmw.rest.config.UserConfig : ok, response status is 200
+2022-07-07 15:38:38,414 INFO  [main] bmw.rest.config.UserConfig : Emails of users are valid!
+2022-07-07 15:38:38,414 INFO  [main] bmw.rest.config.UserConfig : New users have been inserted.
+2022-07-07 15:41:37,948 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 15:41:37,949 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2022-07-07 15:41:37,951 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2022-07-07 15:42:00,189 INFO  [http-nio-8080-exec-2] bmw.rest.service.AddressService : Returned addresses
+2022-07-07 15:46:56,929 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 15:46:56
+2022-07-07 15:55:16,943 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 15:55:16
+2022-07-07 16:03:36,950 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 16:03:36
+2022-07-07 16:11:56,955 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 16:11:56
+2022-07-07 16:20:16,973 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 16:20:16
+2022-07-07 16:28:36,978 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 16:28:36
+2022-07-07 16:36:56,996 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 16:36:56
+2022-07-07 16:45:17,008 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 16:45:17
+2022-07-07 16:53:37,015 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 16:53:37
+2022-07-07 17:01:57,032 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 17:01:57
+2022-07-07 17:10:17,039 INFO  [scheduling-1] bmw.rest.task.ScheduledTasks : Current time is 17:10:17

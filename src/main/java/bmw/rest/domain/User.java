@@ -17,7 +17,7 @@ uniqueConstraints = {
 public class User {
 
 	@Id
-	private int id;
+	private long id;
 
 	@NotBlank
 	private String name;
@@ -43,11 +43,11 @@ public class User {
 	@OneToOne
 	private Company company;
 
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
@@ -110,7 +110,7 @@ public class User {
 	public User() {
 	}
 
-	public User(int id, String name, String username, String email, Address address, String phone, String website, Company company) {
+	public User(long id, String name, String username, String email, Address address, String phone, String website, Company company) {
 		this.id = id;
 		this.name = name;
 		this.username = username;
